@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-   base: "/FAQ-menu/",
+ base: "/FAQ-menu/",
   plugins: [
     tailwindcss(), // ← ONLY THIS, NOT "tailwindcss" or postcss plugins
     react(),
